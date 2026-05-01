@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body class="bg-[#020617] text-white font-sans">
+
+           <!-- Navigation -->
+    <nav class="bg-[#0f172a] text-white px-6 py-4 flex items-center justify-between shadow-lg">
+        <div class="text-green-400 text-4xl font-bold italic">Wil'sSec</div>
+        <ul class="hidden md:flex gap-6 text-medium">
+            <li><a href="#" class="hover:text-gray-400 cursor-pointer">Home</a></li>
+            <li><a href="#" class="hover:text-gray-400 cursor-pointer">About</a></li>
+            <li><a href="#" class="hover:text-gray-400 cursor-pointer">Blog</a></li>
+            <li><a href="#" class="hover:text-gray-400 cursor-pointer">Contact</a></li>
+            <button><a href="#" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600
+            text-sm font-medium transition">Subscribe </a></button>
+        </ul>
+                     
+                          <!-- mobile site -->
+        <div class="md:hidden">
+            <button id="mobile-menu-button" class="text-white focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+                    <!-- mobile menu -->
+        <div id="menu" class="hidden md:hidden px-4 pb-4">
+            <ul class="flex flex-col gap-4">
+                <li><a href="#" class="hover:text-gray-400 cursor-pointer">Home</a></li>
+                <li><a href="#" class="hover:text-gray-400 cursor-pointer">About</a></li>
+                <li><a href="#" class="hover:text-gray-400 cursor-pointer">Blog</a></li>
+                <li><a href="#" class="hover:text-gray-400 cursor-pointer">Contact</a></li>
+                <button><a href="#" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">Subscribe</a></button>
+            </ul>
+        </div>
+    </nav>
+                 
+       <section class="relative h-[400px] flex justify-between items-center">
+          <!-- Background Image -->
+        <img src="/image/cyber1.jpg" alt="Cybersecurity" class="absolute inset-0 w-full h-full object-cover opacity-50">
+            
+           <!-- Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0f172a] to-transparent opacity-75"></div>
+            
+           <!-- Content -->
+        <div class="relative z-10 bg-[#0f172a] bg-opacity-75 w-full ml-[55%] p-6 rounded-lg">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-green-400">Wil'sSec</h1>
+            <p class="mt-2 text-lg md:text-lg mb-6 text-gray-300">Breaches never sleep. Neither do we</p>
+            <a href="#" class="bg-green-500 text-white px-6 py-3 rounded 
+            hover:bg-green-600 transition text-lg font-medium">Explore Our Blog</a>
+        </div> 
+        
+       </section>
+
+          <!-- hero section -->
+           <section class="py-12 px-6">
+            <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-white text-center">About Us</h2>
+                <p class="text-gray-300 mb-8 max-w-3xl text-center">At Wil'sSec, we are passionate about cybersecurity and dedicated
+                     to providing our readers with the latest insights, news, and tips to stay safe in the digital world.
+                      Our team of experts is committed to delivering high-quality content that empowers 
+                      individuals and businesses to protect themselves against cyber threats.</p>
+                <a href="#" class="bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600 transition text-lg font-medium">Learn More</a>
+            </div>
+        </section>
+
+                    <!-- Article Card -->
+              <section class="py-12 px-6">
+                <h3 class="text-3xl md:text-4xl font-bold mb-8 text-green-400 text-center">Latest Articles</h3>
+
+                <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
+                    <div class="bg-[#0f172a] rounded-lg shadow-lg overflow-hidden">
+                        <img src="/image/cyber4.jpg" alt="Article 1" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-green-400">The Rise of Ransomware: How to Protect Your Data</h3>
+                            <p class="text-gray-300 mb-4">Ransomware attacks have become increasingly common, targeting individuals and businesses alike. Learn how to safeguard your data and prevent falling victim to these malicious attacks.</p>
+                            <a href="#" class="text-green-500 hover:text-green-600 font-medium transition">Read More</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#0f172a] rounded-lg shadow-lg overflow-hidden">
+                        <img src="/image/cyber2.jpeg" alt="Article 2" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-green-400">Top 10 Cybersecurity Tips for Small Businesses</h3>
+                            <p class="text-gray-300 mb-4">Small businesses are often targeted by cybercriminals due to their perceived vulnerabilities. Discover essential cybersecurity tips to protect your business from potential threats.</p>
+                            <a href="#" class="text-green-500 hover:text-green-600 font-medium transition">Read More</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#0f172a] rounded-lg shadow-lg overflow-hidden">
+                        <img src="/image/cyber3.jpg" alt="Article 3" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-green-400">The Future of Cybersecurity: Trends to Watch in 2026</h3>
+                            <p class="text-gray-300 mb-4">As technology evolves, so do cyber threats. Stay ahead of the curve by exploring the latest trends in cybersecurity that will shape the industry in 2024 and beyond.</p>
+                            <a href="#" class="text-green-500 hover:text-green-600 font-medium transition">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+                               
+            <!-- footer -->
+            <footer class="bg-[#0f172a] text-white py-12">
+                <div class="max-w-7xl mx-auto px-6">
+                    <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-8 mb-8">
+
+                      <div>
+                        <h3 class="text-4xl  text-white font-semibold mb-2">Wil'sSec</h3>
+                        <p>Building digital experiences that make a difference.</p>
+                    </div>
+
+                        <div>
+                        <h3 class="text-2xl text-white font-semibold mb-2">Quick Links</h3>
+                        <ul>
+                            <li><a href="#Home/index.html" class="hover:underline">Home</a></li>
+                            <li><a href="#About/index.html" class="hover:underline">About</a></li>
+                            <li><a href="#Projects/index.html" class="hover:underline">Blog</a></li>
+                            <li><a href="#Gallery/index.html" class="hover:underline">Contact</a></li>
+                            <li><a href="#Contact/index.html" class="hover:underline">Subscribe</a></li>
+                        </ul>
+                    </div>
+                       
+
+                    <div>
+                        <h3 class="text-2xl  text-white font-semibold mb-2">Services</h3>
+                        <ul>
+                            <li><a href="#" class="hover:underline">Web Management</a></li>
+                            <li><a href="#" class="hover:underline">Data Analysis</a></li>
+                            <li><a href="#" class="hover:underline">Software Development</a></li>
+                            <li><a href="#" class="hover:underline">Project Writing & Consulting</a></li>
+                            <li><a href="#" class="hover:underline">Mobile Apps</a></li>
+                        </ul>
+                    </div>
+
+
+                        <div>
+                            <h4 class="text-lg font-bold mb-4 text-white">Contact Us</h4>
+                            <div class="flex gap-4">
+                                <a href="https://facebook.com/oyira.raphael" class="text-gray-300 hover:text-gray-400 transition"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/@WilsonRaphael15" class="text-gray-300 hover:text-gray-400 transition"><i class="fab fa-twitter"></i></a>
+                                <a href="https://linkedin.com/in/wilson-raphael-oyira" class="text-gray-300 hover:text-gray-400 transition"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://t.me/wils258" class="text-gray-300 hover:text-gray-400 transition"><i class="fab fa-telegram"></i></a>
+                            </div>
+                        </div>
+                        </div>
+
+                        
+            <!-- divider -->
+              <div class="border-t border-gray-700  mt-8"></div>
+              <div class="mt-4 text-center text-gray-500">
+                &copy; 2026 Wilson Raphael Oyira. All rights reserved.</div>
+            </footer>
+
+
+           <!-- Mobile Menu Script -->
+    <script>
+        const menuButton = document.getElementById('mobile-menu-button');
+        const menu = document.getElementById('menu');
+
+        menuButton.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+    </html>
